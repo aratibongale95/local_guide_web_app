@@ -49,7 +49,6 @@ impl Appointments {
     }
      
     
-
     pub fn update(id: i32, appointment: Appointment) -> Result<Self, CustomError> {
         let conn = db::connection()?;
         let appointment = diesel::update(appointment::table)
