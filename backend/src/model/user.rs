@@ -1,3 +1,6 @@
+/**
+ user model to manage user
+*/
 use crate::db;
 use crate::error_handler::CustomError;
 use crate::schema::users;
